@@ -20,9 +20,9 @@ class UserAdminSeeder extends Seeder
     {
         // user seeder        
         User::create([
-            'first_name'        => 'Martin',
-            'last_name'         => 'Klaučo',
-            'email'             => 'martin.klauco@stuba.sk',
+            'first_name'        => 'Jozef',
+            'last_name'         => 'Vargan',
+            'email'             => 'xvarganj@stuba.sk',
             'password'          => Hash::make('password'),           
         ]);
         
